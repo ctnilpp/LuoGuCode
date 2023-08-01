@@ -1,11 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    char mingzi;
-    cin>>mingzi;
-    int num = (int)mingzi;
-    char result = num - 32;
-    cout<<result<<endl;
+
+    for(int q=0;q<=10;q++){
+        for(int w = 10 ;w>=0;w--){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
     return 0;
 }
 
